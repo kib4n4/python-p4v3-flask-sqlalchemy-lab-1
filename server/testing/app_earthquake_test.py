@@ -1,8 +1,8 @@
-from os import environ
-import re
+from os import environ  # Might be needed for environment variables
+import re  # Not used in these tests, might be needed for future tests
 import json
 
-from app import app
+from app import app  # Assuming 'app' is your Flask application instance
 
 
 class TestApp:
